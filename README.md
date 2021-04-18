@@ -1,16 +1,15 @@
-### Hi there 👋
+## Simple HTTP server 
+<p>Simple HTTP server is written on bash.</p>
 
-<!--
-**VladTara/vladtara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Using
 
-Here are some ideas to get you started:
+```
+docker run -it --rm -p 8080:8080 glapss/simplehttp:latest 
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### Command arg
+default **Simple HTTP server** is listen 8080, but you can change that:
+
+ ```
+ docker run -it --rm -p 8080:8080 glapss/simplehttp:latest 8888
+ ```
