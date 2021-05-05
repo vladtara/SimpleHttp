@@ -1,4 +1,4 @@
-## Simple HTTP server 
+## Simple HTTP Service
 <p>Simple HTTP server is written on bash.</p>
 
 ### Using
