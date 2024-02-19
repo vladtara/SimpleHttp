@@ -37,4 +37,4 @@ jobs:
           platforms: linux/amd64,linux/arm64/v8,linux/arm/v7
           tags: |
             glapss/simplehttp:latest
-            ghcr.io/vlidtara/simplehttp:latest
+            ghcr.io/vladtara/simplehttp:latest
